@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 350px;
+    height: 470px;
+    background-color: rgb(83, 80, 86);
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 10px;
+
+}
+.display input{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px 4px 4px rgb(83, 80, 86);
+width: 330px;
+height: 35px;
+background-color: rgb(212, 211, 211);
+
+}
+.opreter input{
+    padding: 15px ;
+    margin: 10px 15px;
+    font-size: 25px;
+ border-radius: 10px;
+ background-color: cyan;
+ box-shadow: 8px 8px 8px 8px rgb(83, 82, 82);
+z-index: -1;
+color: black;
+
+}
+
+.opreter input:hover{
+    background-color: red;
+    color: white;
+
+}
+
+.equal input{
+    width: 120px;
+
+}
+.equal input:hover{
+    background-color:red;
+    color: white;
+}
+.op input{
+    padding:15px;
+    margin: 10px 13px;
+    font-size: 20px;
+    background-color: cyan;
+    color:black;
+}
+.op input:hover{
+    background-color: red;
+    color:white;
+}
+
